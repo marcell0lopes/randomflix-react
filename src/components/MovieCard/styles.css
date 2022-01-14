@@ -1,0 +1,36 @@
+.movie-card {
+  margin-top: 2rem;
+  background-color: #fcfcfc;
+  max-height: 70vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.movie-img {
+  margin: 0;
+  padding: 0;
+}
+
+.movie-img img {
+  height: 100%;
+}
+
+.movie-content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-title h2 {
+  font-size: 2.5rem;
+}
