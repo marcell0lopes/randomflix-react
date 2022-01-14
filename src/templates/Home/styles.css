@@ -27,3 +27,9 @@
   color: #00afb9;
   font-weight: 400;
 }
+
+.no-movie {
+  margin: 2rem;
+  font-size: 1rem;
+  opacity: 0.7;
+}
