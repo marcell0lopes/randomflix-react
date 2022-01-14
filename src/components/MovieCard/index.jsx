@@ -5,6 +5,12 @@ export class MovieCard extends Component {
   render() {
     return (
       <div className="movie-card">
+        <div className="movie-img">
+          <img
+            src="https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217"
+            alt=""
+          />
+        </div>
         <div className="movie-content">
           <div className="movie-header">
             <div className="movie-title">
@@ -25,12 +31,6 @@ export class MovieCard extends Component {
             repellat maiores. In impedit ducimus, nemo dolor vitae, dignissimos,
             voluptatibus iusto unde maxime ea qui eius laborum quas.
           </p>
-        </div>
-        <div className="movie-img">
-          <img
-            src="https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217"
-            alt=""
-          />
         </div>
       </div>
     );
