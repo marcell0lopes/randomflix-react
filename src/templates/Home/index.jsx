@@ -11,7 +11,7 @@ class App extends Component {
       <section className="App">
         <div className="container">
           <header>
-            <h1>
+            <h1 className="logo">
               <span>random</span>FLIX
             </h1>
             <Button />

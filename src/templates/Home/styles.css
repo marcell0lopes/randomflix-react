@@ -13,3 +13,16 @@
   justify-content: center;
   text-align: center;
 }
+
+.logo {
+  margin: 2rem 0;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.2rem;
+  color: #0081a7;
+}
+
+.logo span {
+  color: #00afb9;
+  font-weight: 400;
+}
