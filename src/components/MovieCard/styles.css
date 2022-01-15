@@ -11,6 +11,9 @@
 .movie-img {
   margin: 0;
   padding: 0;
+  max-height: 30rem;
+
+  overflow: hidden;
 }
 
 .movie-img img {
@@ -58,9 +61,8 @@
 
 @media (min-width: 900px) {
   .movie-card {
-    flex-direction: row-reverse;
-    max-width: 900px;
-    max-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .movie-img img {
@@ -68,7 +70,9 @@
   }
 
   .movie-title h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 0;
   }
 
   .movie-title h3 {
@@ -76,6 +80,10 @@
   }
 
   .movie-descr {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
     text-align: left;
+    max-height: 12rem;
+    overflow: auto;
   }
 }
