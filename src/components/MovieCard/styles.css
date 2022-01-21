@@ -63,6 +63,7 @@
   .movie-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 800px;
   }
 
   .movie-img img {
